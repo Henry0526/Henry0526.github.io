@@ -17,3 +17,7 @@
     -webkit-transform:rotate(360deg);  
     /*-webkit-font-smoothing:antialiased;*/
 }
+
+.mediaBody-pull-center{
+	text-align:center;
+}

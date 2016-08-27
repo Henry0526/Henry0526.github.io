@@ -6,8 +6,7 @@ body{
 	position:relative;
 }
 
-.MainBlock
-{
+.MainBlock{
 	background-color:#fff;
 	border-left: solid 2px;
 	border-right: solid 2px;
@@ -15,15 +14,13 @@ body{
 	box-shadow:5px 5px 5px grey;
 }
 
-.panelHeadFont
-{
+.panelHeadFont{
 	font-size:32px;
 	padding:0px;
 	
 }
 /*要讓panel的內容字體改變*/
-.panelContent
-{
+.panelContent{
 	font-size:24px;
 }
 
@@ -31,4 +28,16 @@ body{
 .panelBottom{
 	margin-bottom:30px !important;
 	box-shadow:5px 5px 5px grey !important;
+}
+
+/*幫我的userInfo 標題增加標籤的樣式*/
+.Label_Skill{
+	background-color:#60daec;
+	border:solid 1px;
+	border-radius:10px;
+	text-align:center;
+	padding:1px 3px;
+	margin:5px;
+	margin-top:15px;
+	font-size:18px;
 }
