@@ -1,10 +1,34 @@
 
 
-body{ 
+body{
+
+	background-color:#9ebd9e;
 	position:relative;
 }
-			
-.content{
-	height:1000px;
-	text-align:center;
+
+.MainBlock
+{
+	background-color:#fff;
+	border-left: solid 2px;
+	border-right: solid 2px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow:5px 5px 5px grey;
+}
+
+.panelHeadFont
+{
+	font-size:32px;
+	padding:0px;
+	
+}
+/*要讓panel的內容字體改變*/
+.panelContent
+{
+	font-size:24px;
+}
+
+/*控制panel的底部可以有陰影和距離 !important是要蓋掉bootstrap的優先權Q_Q*/
+.panelBottom{
+	margin-bottom:30px !important;
+	box-shadow:5px 5px 5px grey !important;
 }

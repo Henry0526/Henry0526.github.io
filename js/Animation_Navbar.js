@@ -22,11 +22,5 @@ $('.scroll-top').click(function(){
 		var posi = $(links).offset().top;
 		$('body').animate({scrollTop:posi},700);
 	});
-
-
-
-
-
-
         
 });
